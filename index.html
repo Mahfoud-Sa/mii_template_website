@@ -690,22 +690,25 @@
                 </div>
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
                     <div class="bg-light rounded h-100 d-flex align-items-center p-5">
-                        <form>
+                        <form action="mailto: info@mii.edu.ye">
                             <div class="row g-3">
-                                <div class="col-12 col-sm-6">
-                                    <input type="text" class="form-control border-0" placeholder="اسمك" style="height: 55px;">
+                               
+                                <div class="col-12">
+                                    <input name="subject" type="text" class="form-control border-0" required placeholder="العنوان" style="height: 55px;">
                                 </div>
                                 <div class="col-12 col-sm-6">
-                                    <input type="email" class="form-control border-0" placeholder="البريد الالكتروني" style="height: 55px;">
+                                    <input name="body" type="name" class="form-control border-0" required placeholder="اسمك" style="height: 55px;">
                                 </div>
                                 <div class="col-12 col-sm-6">
-                                    <input type="text" class="form-control border-0" placeholder="رقم هاتفك" style="height: 55px;">
+                                    <input  name="from" type="email" class="form-control border-0"required placeholder="البريد الالكتروني" style="height: 55px;">
                                 </div>
+                               
                                 
                                 <div class="col-12">
-                                    <textarea class="form-control border-0" rows="5" placeholder="اكتب رسالتك"></textarea>
+                                    <textarea class="form-control border-0" rows="5"required placeholder="اكتب رسالتك"></textarea>
                                 </div>
                                 <div class="col-12">
+                                 
                                     <button class="btn btn-primary w-100 py-3" type="submit">ارسال</button>
                                 </div>
                             </div>
