@@ -1,4 +1,11 @@
 /********** Template CSS **********/
+@font-face{
+    font-family: Cairo;
+src: url(/fonts/Cairo-VariableFont_slnt\,wght.ttf);
+}
+*{
+    font-family: sans-serif !important;
+}
 :root {
     --primary: #0463FA;
     --light: #EFF5FF;
