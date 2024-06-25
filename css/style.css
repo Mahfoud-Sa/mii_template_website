@@ -4,7 +4,7 @@
 src: url(/fonts/Cairo-VariableFont_slnt\,wght.ttf);
 }
 *{
-    font-family: sans-serif !important;
+    font-family: Arial, Helvetica, sans-serif !important;
 }
 :root {
     --primary: #0463FA;
@@ -89,7 +89,7 @@ src: url(/fonts/Cairo-VariableFont_slnt\,wght.ttf);
 .navbar .dropdown-toggle::after {
     border: none;
     content: "\f107";
-    font-family: "Font Awesome 5 Free";
+   
     font-weight: 900;
     vertical-align: middle;
     margin-left: 8px;
@@ -500,7 +500,7 @@ src: url(/fonts/Cairo-VariableFont_slnt\,wght.ttf);
 .footer .btn.btn-link::before {
     position: relative;
     content: "\f105";
-    font-family: "Font Awesome 5 Free";
+ 
     font-weight: 900;
     margin-right: 10px;
 }
