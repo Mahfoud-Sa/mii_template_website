@@ -10,7 +10,7 @@ jobs:
   variable:
     runs-on:ubuntu-latest
     steps:
-      -name:run-default varible
-       run: |
+      - name: Run-default varible
+        run: |
         echo $Home
   
